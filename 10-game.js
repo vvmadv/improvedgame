@@ -50,7 +50,7 @@ function playGame(playerMove) {
         } else if (computerMove === 'paper') {
             result = 'Shiva and Ivan kiss';
         } else if (computerMove === 'scissors') {
-            result = 'Kisses for Ivan';
+            result = 'Kisses for Shiva';
         }
     }
 
