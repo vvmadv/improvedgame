@@ -54,9 +54,9 @@ function playGame(playerMove) {
         }
     }
 
-    if (result === 'Kisses for Ivan') {
+    if (result === 'Kisses for Shiva') {
         score.wins += 1;
-    } else if (result === 'Kisses for Shiva') {
+    } else if (result === 'Kisses for Ivan') {
         score.losses += 1;
     } else if (result === 'Shiva and Ivan kiss') {
         score.ties += 1;
